@@ -1,0 +1,210 @@
+form {
+    display: block;
+    background-color: rgb(145, 120, 89);
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+.all{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    color: black;
+}
+
+
+  
+
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+img{
+    width: 100%;
+}
+ 
+  body{
+    background-color: gray;
+  }
+
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline;
+  }
+
+  h4{
+    color: white;
+  }
+
+  
+h2{
+    color: white;
+}
+
+
+ul{
+    color: white;
+}
+h1{
+    color: white;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    /* float: left; */
+  padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+
+
+  /* Clear floats after the columns */
+ 
+
+  footer{
+    text-align: center;
+    color: white;
+  }
+  
+  li{
+    background-color: grey;
+  }
+  a { color: inherit; } 
+
+  .first{
+    margin-left: 40px;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+   
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left:30px;
+    padding-right:30px;
+    border-right: 1px solid white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+
+  .row1{
+width: 30%;
+  }
+  .row2{
+    width: 70%;
+  }
+  .row3{
+width: 50%;
+border-right: 4px solid white;
+margin-right: 5px;
+  }
+  .row4{
+    width: 50%;
+      }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+    
+  input{
+          background-color: rgb(236, 212, 212);
+          font-size: 20px;
+          height: 50px;
+  } 
+
+
+  h{
+    background-image: url("dis.jpg");
+  }
+
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .hi{
+    color: rgb(0, 0, 0);
+    padding-right: 180px;
+  }
+
+  .ho{
+    color: rgb(0, 0, 0);
+    padding-right: 180px;
+  }
+
+  form{
+    background-color: grey;
+    border: 1px SOLID black;
+    padding-left: 12px;
+  }
